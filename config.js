@@ -4,8 +4,8 @@
 // supabase/schema.sql.  NEVER put the service_role key here.
 // ---------------------------------------------------------------
 window.PSF_CONFIG = {
-  SUPABASE_URL: "https://estmcqyszllppedgbkqo.supabase.co",
-  SUPABASE_ANON_KEY: "sb_publishable_rwEdklu0TvNGDLfnMWA4TQ_pym6Cw8w",
+  SUPABASE_URL: "",        // e.g. https://abcd1234.supabase.co
+  SUPABASE_ANON_KEY: "",   // Project Settings -> API -> anon public key
   RAZORPAY_KEY_ID: "",     // Razorpay TEST key id, starts with rzp_test_
   HOLD_MINUTES: 10,        // must match expire_pending() in schema.sql
   CANCEL_BEFORE_HOURS: 1   // must match cancel_booking() in schema.sql
